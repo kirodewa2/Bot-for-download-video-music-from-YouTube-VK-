@@ -6,9 +6,9 @@ from time import sleep
 from random import randint
 from moviepy.editor import *
 
-bot = telebot.TeleBot('1170565403:AAEYobdzNx6qQVtxUWPfhRHoFndMLyWJzdA')
+bot = telebot.TeleBot('1456317748:AAEJutNbTVUBI5zpQ0lhKxzSwBSJps4Y0cs')
 
-admin_id = 1017153621
+admin_id = 1002182448
 
 @bot.message_handler(commands=['start'])
 def start(message):
